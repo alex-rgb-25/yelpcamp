@@ -1,0 +1,38 @@
+body{
+    background:url("https://i.imgur.com/n1mPPDr.jpg");
+    background-size: 100%;
+}
+
+#lrs{
+    width:230px;
+    margin:0 auto;
+}
+
+hr.style-three {
+    margin-top: 10px;
+    margin-bottom: -20px;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    }
+    
+    hr.style-three:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+    }
+
+    div.input-group{
+        padding-left: 15px;
+    }
+
+    h1{
+        color:#f7ff83;
+    }

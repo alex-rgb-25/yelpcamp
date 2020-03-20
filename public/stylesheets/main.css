@@ -1,0 +1,29 @@
+body{
+    background-image:url("https://i.imgur.com/NwXijeg.png");
+    background-size: 30%;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding:0;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.delete-form{
+    display:inline;
+}
+
+.jumbotron{
+    background-image:url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3defd679-ef1f-4735-8d68-b26bb68ab032/d2oofky-9ea2a384-c86b-4239-a8da-2b224d434f72.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNkZWZkNjc5LWVmMWYtNDczNS04ZDY4LWIyNmJiNjhhYjAzMlwvZDJvb2ZreS05ZWEyYTM4NC1jODZiLTQyMzktYThkYS0yYjIyNGQ0MzRmNzIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KfyX-b1A_nP2P7o2z8EVaZYgPXIIRYhrS09etIUb-b8");
+
+    background-size:cover;
+
+    color:white;
+    text-align: center;
+}

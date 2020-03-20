@@ -1,0 +1,36 @@
+<% include ./partials/header %>
+
+
+<head>
+    <link rel="stylesheet" href="../stylesheets/login.css">
+</head>
+
+
+
+<div id ="lrs" class = "container">
+    <div class="input-group">
+        <h1>Login</h1>
+    </div>
+
+<form action="/login" method = "POST">
+
+    <div class="input-group">
+        <span></span>
+        <input type="text" class="form-control" name = "username" placeholder = "Username">
+    </div>
+    <hr class="style-three">
+    <div class="input-group">
+        <span></span>
+        <input type="password" class="form-control" name = "password" placeholder = "Password">
+    </div>
+    <br>
+    <div class="input-group">
+        <span></span>
+        <input type="submit" class="form-control" value = "Login">
+    </div>
+</form>
+
+</div>
+
+
+<% include ./partials/footer %>
